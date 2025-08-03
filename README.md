@@ -68,8 +68,8 @@ npm run dev
 
 ## 🧱 Related Projects
 
-- [CoreGameEngine (Contracts)](https://github.com/your-org/core-game-engine) – Modular on-chain gaming framework
-- [CoreGame Agario](https://coreengine.site/game/agario) – Reference implementation using the engine
+- [CoreGameEngine (Contracts)](https://github.com/XxSNiPxX/CoreGameProtocol) – Modular on-chain gaming framework
+- [CoreGame Agario](https://agar.coreengine.site) – Reference implementation using the engine
 - [EIP-2535 Diamonds](https://eips.ethereum.org/EIPS/eip-2535) – Standard behind modular architecture
 
 ---
