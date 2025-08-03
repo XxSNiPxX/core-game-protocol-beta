@@ -1,0 +1,91 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "OwnershipFacet",
+  "sourceName": "contracts/facets/OwnershipFacet.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_user",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_contractOwner",
+          "type": "address"
+        }
+      ],
+      "name": "NotContractOwner",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "oldOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "FacetOwnerUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "owner_",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f80fd5b506102318061001c5f395ff3fe608060405234801561000f575f80fd5b5060043610610034575f3560e01c80638da5cb5b14610038578063f2fde38b1461005c575b5f80fd5b610040610071565b6040516001600160a01b03909116815260200160405180910390f35b61006f61006a3660046101ae565b610095565b005b5f6100905f805160206101dc833981519152546001600160a01b031690565b905090565b61009d6100f3565b5f6100bc5f805160206101dc833981519152546001600160a01b031690565b5f805160206101dc83398151915280546001600160a01b0319166001600160a01b03851617905590506100ef818361016a565b5050565b7fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c131c600301546001600160a01b03163314610168575f805160206101dc8339815191525460408051600162bed83560e01b031981523360048201526001600160a01b039092166024830152519081900360440190fd5b565b806001600160a01b0316826001600160a01b03167f2790364004b3554ee13128b845c3221fca6319998ddf92c6a4df71b7798bc76b60405160405180910390a35050565b5f602082840312156101be575f80fd5b81356001600160a01b03811681146101d4575f80fd5b939250505056fec8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c131fa264697066735822122051aaf4955c28d877d2e1b4fbc9edbe8faccecd44e083e5ff388eafd9e69dbd5264736f6c634300081a0033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610034575f3560e01c80638da5cb5b14610038578063f2fde38b1461005c575b5f80fd5b610040610071565b6040516001600160a01b03909116815260200160405180910390f35b61006f61006a3660046101ae565b610095565b005b5f6100905f805160206101dc833981519152546001600160a01b031690565b905090565b61009d6100f3565b5f6100bc5f805160206101dc833981519152546001600160a01b031690565b5f805160206101dc83398151915280546001600160a01b0319166001600160a01b03851617905590506100ef818361016a565b5050565b7fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c131c600301546001600160a01b03163314610168575f805160206101dc8339815191525460408051600162bed83560e01b031981523360048201526001600160a01b039092166024830152519081900360440190fd5b565b806001600160a01b0316826001600160a01b03167f2790364004b3554ee13128b845c3221fca6319998ddf92c6a4df71b7798bc76b60405160405180910390a35050565b5f602082840312156101be575f80fd5b81356001600160a01b03811681146101d4575f80fd5b939250505056fec8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c131fa264697066735822122051aaf4955c28d877d2e1b4fbc9edbe8faccecd44e083e5ff388eafd9e69dbd5264736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
