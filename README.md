@@ -74,6 +74,28 @@ npm run dev
 
 ---
 
+## 🛠️ Future Plans
+
+To make integration with the Core Game Engine even easier, upcoming releases will include:
+
+- 🧰 **Official SDKs** for frontend and backend:
+  - Simplified hooks to check passport status, mint, and fetch inventory
+  - Plug-and-play wallet connection (EVM & Solana)
+  - Game loop utilities for seamless tick/update syncing
+
+- 🕹️ **Game Dev Starter Templates**:
+  - React + Ethers + Tailwind template with built-in passport + inventory
+  - Integration guides for Unity or Godot (via WebAssembly/JS bridge)
+
+- 🧩 **Dynamic Facet Loader**:
+  - Drop-in support for adding modules to your game without writing Solidity
+
+These tools are being designed to let developers **focus on gameplay**, not contracts — so creating an on-chain game will be as easy as importing a library.
+
+Stay tuned.
+
+---
+
 ## 📌 Notes
 
 This dashboard is **intended for hackathons, early developer adoption, and demos**. Not all features are polished or intended for production use yet — focus is on demonstrating the **modular facet architecture** in action.
